@@ -1,5 +1,5 @@
 const express = require('express');
-const serverles = require('serverless-http');
+const serverless = require('serverless-http');
 const app = express();
 
 app.use(express.json()); // Middleware to parse JSON data
